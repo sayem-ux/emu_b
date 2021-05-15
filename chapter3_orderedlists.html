@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>RTL</title>
+    </head>
+    <body>
+
+        <!--Definition Lists-->
+        <h3>Microcode Mnemonics:</h3>
+        <dl>
+            <dt><abbr title="Memory Address Register">MAR</abbr></dt>
+            <dd>An 8-bit register created using flip flops that contains
+                the address that RAM will be read/written from.
+            </dd>
+            <dt><abbr title="Program Counter">PC</abbr></dt>
+            <dd>An 8-bit counter of the CPU that keeps track of the current 
+                instruction.
+            </dd>
+        </dl>
+        
+        <!--Ordered Lists-->
+         <h3>Fetch Stages:</h3>
+        <ol>
+            <li>FETCH1: MAR<=PC</li>
+            <li>FETCH2: MDR<=M[MAR], PC<=PC+1</li>
+            <li>FETCH3: IR<=MDR</li>
+        </ol>
+    
+        <!--Un-Ordered Lists-->
+        <h3>Instructions:</h3>
+        <ul>
+            <li>NOP</li>
+            <li>LOAD</li>
+            <li>LOADI</li>
+            <li>STORE</li>
+        </ul>
+
+    </body>
+</html>
