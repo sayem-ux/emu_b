@@ -31,3 +31,17 @@ Chapter4: Links
 - You can use the id attribute to target elements within a page that can be linked to.
 
 Chapter5: Images
+
+The <img> element is used to add images to a web page.
+You must always specify a src attribute to indicate the source of an image and an alt attribute to describe the content of an image.
+You should save images at the size you will be using them on the web page and in the appropriate format.
+Photographs are best saved as JPEGs; illustrations or logos that use flat colors are better saved as GIFs.
+
+Notes: 
+Block elements appear on a new line
+Inline elements sit within a block level element and do Not start on a new line. 
+Empty elements don't have end tag. Have no content.
+
+1)Save images in right format
+2)Save images at the right size
+3)use the correct resolution
