@@ -45,3 +45,23 @@ Empty elements don't have end tag. Have no content.
 1)Save images in right format
 2)Save images at the right size
 3)use the correct resolution
+
+Chapter6: Tables
+- The <table> element is used to add tables to a web page.
+- A table is drawn out row by row. Each row is created with the <tr> element.
+- Inside each row there are a number of cells represented by the <td> element (or <th> if it is a header).
+- You can make cells of a table span more than one row or column using the rowspan and colspan attributes.
+- For long tables you can split the table into a <thead>, <tbody>, and <tfoot>.
+
+Notes:
+
+   -Part of the reason for having separate <thead> and <tfoot> 
+    elements is so that, if you have a table that is taller than the 
+    screen (or, if printed, longer than one page) then the browser 
+    can keep the header and footer visible whilst the contents of 
+    the table scroll.
+
+Chapter7:  Forms
+
+
+Notes:
