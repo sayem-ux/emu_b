@@ -1,9 +1,8 @@
-#body {
-    background-color: black;
-}
 
-#h1 {
-    background-color: yellow;
+
+h1, h2, h3 {
+    font-family: 'Times New Roman';
+    color:green;
 }
 
 .center {
@@ -11,4 +10,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%
+}
+
+.page {
+    border: 5px solid #665544;
+    background-color: #efefef;
+    padding: 50px;
+    /* you can use "inherit" to take values from other properties */
 }
